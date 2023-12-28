@@ -1,4 +1,6 @@
+import Collection from "@/components/shared/Collection";
 import { Button } from "@/components/ui/button";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -39,6 +41,16 @@ export default function Home() {
           Search
           CategoryFilter
         </div>
+
+        <Collection
+          data={[]}
+          emptyTitle="No Events Found"
+          emptyStateSubtext="Come back later"
+          collectionType="All_Events"
+          limit={6}
+          page={1}
+          totalPages={2}
+        />
       </section>
     </>
   );
