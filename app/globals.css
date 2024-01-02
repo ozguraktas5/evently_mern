@@ -74,7 +74,7 @@
 }
 
 body {
-  font-family: var(--font-poppins);
+  font-family: var(--font-poppins)
 }
 
 .filter-grey {
@@ -250,7 +250,7 @@ body {
 .cl-formButtonPrimary:hover,
 .cl-formButtonPrimary:focus,
 .cl-formButtonPrimary:active {
-  background-color: #705cf7;
+  background-color: #705CF7
 }
 
 /* ========================================== REACT-DATEPICKER STYLES */
@@ -274,3 +274,4 @@ body {
 .react-datepicker__time-list-item--selected {
   background-color: #624cf5 !important;
 }
+
